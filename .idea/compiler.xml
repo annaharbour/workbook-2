@@ -11,9 +11,11 @@
         <module name="AddressBuilder" />
         <module name="RollTheDice" />
         <module name="TestStatistics" />
+        <module name="TheaterReservations" />
         <module name="VehicleInventory" />
         <module name="FullNameGenerator" />
         <module name="CellPhoneService" />
+        <module name="HighScoreWins" />
       </profile>
     </annotationProcessing>
   </component>

@@ -12,6 +12,8 @@
         <option value="$PROJECT_DIR$/RollTheDice/pom.xml" />
         <option value="$PROJECT_DIR$/TestStatistics/pom.xml" />
         <option value="$PROJECT_DIR$/VehicleInventory/pom.xml" />
+        <option value="$PROJECT_DIR$/HighScoreWins/pom.xml" />
+        <option value="$PROJECT_DIR$/TheaterReservations/pom.xml" />
       </list>
     </option>
   </component>
