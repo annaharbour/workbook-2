@@ -5,6 +5,16 @@ import java.util.Scanner;
 public class CellPhoneApplication {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+        CellPhone cellPhone1 = createCellPhone(scanner);
+        // or call cellPhone.printData() to print all data;
+        cellPhone1.dial("555-555-555");
+        CellPhone cellPhone2 = createCellPhone(scanner);
+        display(cellPhone1);
+        display(cellPhone2);
+        scanner.close();
+    }
+
+    public static CellPhone createCellPhone(Scanner scanner) {
         System.out.println("What is the serial number?"); // 2597153
         int serialNum = scanner.nextInt();
         scanner.nextLine();
@@ -16,7 +26,6 @@ public class CellPhoneApplication {
         String phone = scanner.nextLine();
         System.out.println("Who is the owner of the phone?"); //Sandra
         String owner = scanner.nextLine();
-        scanner.close();
 
         CellPhone cellPhone = new CellPhone();
         cellPhone.setSerialNumber(serialNum);
@@ -24,11 +33,17 @@ public class CellPhoneApplication {
         cellPhone.setPhoneNumber(phone);
         cellPhone.setCarrier(carrier);
         cellPhone.setOwner(owner);
+        return cellPhone;
+    }
 
-        System.out.printf("Serial number: %d\n", cellPhone.getSerialNumber());
-        System.out.printf("Model: %s\n", cellPhone.getModel());
-        System.out.printf("Carrier: %s\n", cellPhone.getCarrier());
-        System.out.printf("Phone Number: %s\n", cellPhone.getPhoneNumber());
-        System.out.printf("Phone owner: %s\n", cellPhone.getOwner());
+    public static void display(CellPhone phone) {
+        System.out.println("Cell Phone Info\n");
+        System.out.println("==============================");
+        System.out.printf("Serial number: %d\n", phone.getSerialNumber());
+        System.out.printf("Model: %s\n", phone.getModel());
+        System.out.printf("Carrier: %s\n", phone.getCarrier());
+        System.out.printf("Phone Number: %s\n", phone.getPhoneNumber());
+        System.out.printf("Phone owner: %s\n", phone.getOwner());
+        System.out.println("==============================");
     }
 }

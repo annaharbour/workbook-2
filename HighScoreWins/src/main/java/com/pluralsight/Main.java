@@ -4,7 +4,6 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-
         System.out.println("Please enter a game score: ");
         Scanner scanner = new Scanner(System.in);
         String score = scanner.nextLine();

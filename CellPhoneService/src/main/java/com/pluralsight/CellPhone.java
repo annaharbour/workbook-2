@@ -55,4 +55,16 @@ public class CellPhone {
         return this.owner;
     }
 
+    public void printData(){
+        System.out.printf("Serial number: %d\n", this.getSerialNumber());
+        System.out.printf("Model: %s\n", this.getModel());
+        System.out.printf("Carrier: %s\n", this.getCarrier());
+        System.out.printf("Phone Number: %s\n", this.getPhoneNumber());
+        System.out.printf("Phone owner: %s\n", this.getOwner());
+    }
+
+    public void dial(String dialedPhoneNum){
+        System.out.printf("%s is calling #%s\n", this.owner, dialedPhoneNum);
+    }
+
 }
