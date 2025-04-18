@@ -6,11 +6,14 @@ public class CellPhoneApplication {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         CellPhone cellPhone1 = createCellPhone(scanner);
-        // or call cellPhone.printData() to print all data;
-        cellPhone1.dial("555-555-555");
         CellPhone cellPhone2 = createCellPhone(scanner);
+        CellPhone cellPhone3 = new CellPhone(73490834, "Samsung Galaxy", "Verizon", "704555555", "Anna");
         display(cellPhone1);
         display(cellPhone2);
+        display(cellPhone3);
+        // or call cellPhone.printData() to print all data;
+        cellPhone1.dial("555-555-555");
+        cellPhone1.dial(cellPhone3);
         scanner.close();
     }
 
