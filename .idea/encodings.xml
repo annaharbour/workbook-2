@@ -3,6 +3,8 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/AddressBuilder/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/AddressBuilder/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/CarInventory/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/CarInventory/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/CellPhoneService/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/CellPhoneService/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/FullNameGenerator/src/main/java" charset="UTF-8" />
@@ -13,6 +15,8 @@
     <file url="file://$PROJECT_DIR$/HighScoreWins/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/LoopingExercise/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/LoopingExercise/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/PartII/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/PartII/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/RollTheDice/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/RollTheDice/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/TestStatistics/src/main/java" charset="UTF-8" />

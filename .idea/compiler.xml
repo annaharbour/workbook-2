@@ -13,6 +13,8 @@
         <module name="TestStatistics" />
         <module name="TheaterReservations" />
         <module name="VehicleInventory" />
+        <module name="PartII" />
+        <module name="CarInventory" />
         <module name="FullNameGenerator" />
         <module name="CellPhoneService" />
         <module name="HighScoreWins" />
