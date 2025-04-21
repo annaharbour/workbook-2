@@ -16,7 +16,14 @@
         <option value="$PROJECT_DIR$/TheaterReservations/pom.xml" />
         <option value="$PROJECT_DIR$/PartII/pom.xml" />
         <option value="$PROJECT_DIR$/CarInventory/pom.xml" />
+        <option value="$PROJECT_DIR$/Assessment/pom.xml" />
+        <option value="$PROJECT_DIR$/PalindromeProduct/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/Assessment/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_X" default="true" project-jdk-name="23" project-jdk-type="JavaSDK">

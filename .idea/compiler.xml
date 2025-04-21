@@ -6,19 +6,23 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="LoopingExercise" />
-        <module name="FullNameParser" />
-        <module name="AddressBuilder" />
-        <module name="RollTheDice" />
         <module name="TestStatistics" />
         <module name="TheaterReservations" />
         <module name="VehicleInventory" />
         <module name="PartII" />
+        <module name="HighScoreWins" />
+        <module name="LoopingExercise" />
+        <module name="FullNameParser" />
+        <module name="AddressBuilder" />
+        <module name="RollTheDice" />
+        <module name="PalindromeProduct" />
         <module name="CarInventory" />
         <module name="FullNameGenerator" />
         <module name="CellPhoneService" />
-        <module name="HighScoreWins" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Assessment" target="24" />
+    </bytecodeTargetLevel>
   </component>
 </project>
